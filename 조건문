@@ -1,0 +1,22 @@
+m=int(input())
+
+if m>=3 and m<=5:
+    print('봄')
+    
+elif m>=6 and m<=8:
+    print('여름')
+    
+elif m>=9 and m<=11:
+    print('가을')
+    
+elif m==12 and m>=1 and m<=2:
+    print('겨울')
+
+a = int(input())
+
+if a % 4 ==0 and a % 5 ==0:
+    print('둘다')
+elif a % 5 ==0:
+    print('5의배수')
+elif a % 4 ==0:
+    print("4의배수")
